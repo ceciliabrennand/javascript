@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países</title>
+</head>
+<body>
+    <h1>Emissão de passaporte</h1>
+    País de origem: <input type="text" name="pais" id="ipais">
+    <input type="button" value="Enviar" onclick="clicar()">
+    <div id="resposta">
+
+    </div>
+
+    <script>
+        function clicar() {
+            var pais = document.getElementById('ipais')
+            var resp = document.getElementById('resposta')
+            var rpais = pais.value
+            resp.innerHTML = `<p>Seu país de origem é: ${rpais}</p>`
+            if (rpais == 'Brasil') {
+                resp.innerHTML += '<p>Você é brasileiro.</p>'
+            } else {
+                resp.innerHTML += '<p>Você não é brasileiro.</p>'
+            }
+        }
+    </script>
+</body>
+</html>
