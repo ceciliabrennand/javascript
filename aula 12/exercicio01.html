@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hora do dia</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hora do dia</h1>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
 
     <div>
-        <h2 id="horadodia" onload="horario()"></h2>
-        <img src="imagens/dia.jpg" alt="imagem de dia">
+        <h2 id="horadodia"></h2>
+        <img id="imagem" src="imagens/dia.jpg" alt="imagem de dia">
     </div>
 
-    <p>Exercício do Curso em Vídeo</p>
+    <footer>
+        <p>Exercício do Curso em Vídeo</p>
+    </footer>
 
-    <script>
-        function horario() {
-            var hora = new Date()
-            var h = hora.getHours()
-            var texto = document.getElementById('horadodia')
-            texto.innerHTML(`Agora são ${h} horas.`)
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

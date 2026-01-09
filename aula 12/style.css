@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+header > h1{
     text-align: center;
     color: white;
 }
@@ -34,7 +34,7 @@ div > img{
     border-radius: 50%;
 }
 
-p{
+footer > p{
     text-align: center;
     font-size: 14px;
     color: white;
