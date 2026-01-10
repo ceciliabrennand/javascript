@@ -18,3 +18,5 @@ function carregar() {
                 img.src = './imagens/noite.jpeg'
             }
         }
+
+        

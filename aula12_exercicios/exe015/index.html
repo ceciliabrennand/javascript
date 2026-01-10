@@ -11,12 +11,24 @@
         <h1>Verificador de idade</h1>
     </header>
     <section>
-        Ano de nascimento: <input type="number" name="ano" id="iano" required min="1925" max="2025"> <br>
-        Sexo: <input type="radio" name="sexo" id="isexfem"> Feminino
-        <input type="radio" name="sexo" id="isexmas"> Masculino <br>
-        <input type="button" value="Verificar" id="botao" onclick="verificar()">
-        <p id="texto">Preencha os dados acima para ver o resultado.</p>
-        <img id="imagem" src="imagens/bebe.jpeg" alt="bebe">
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" required min="1925">
+            </p>
+            <p> Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
     </section>
 
     <footer>
