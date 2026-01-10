@@ -18,6 +18,7 @@ section{
 }
 
 img{
+    display: none;
     height: 200px;
     width: 200px;
     border-radius: 50%;
