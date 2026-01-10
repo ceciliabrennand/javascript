@@ -55,17 +55,3 @@ function verificar() {
     }
     
 }
-
-/* se a idade for maior que 59, se for masculino, entao homem idoso
-se a idade for maior que 59, se for feminino, entao mulher idoso
-
-se a idade for maior que 18 e menor igual 59, se for masculino, entao homem 
-se a idade for maior que 18 e menor igual 59, se for feminino, entao mulher
-
-se a idade for maior que 15 e menor igual a 18, se for masculino, entao garoto
-se a idade for maior que 15 e menor igual a 18, se for feminino, entao garota
-
-se a idade for maior que 5 e menor igual a 15, se for masculino, entao menino
-se a idade for maior que 5 e menor igual a 15, se for feminino, entao menina
-
-*/
