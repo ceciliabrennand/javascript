@@ -11,8 +11,8 @@ function carregar() {
             if (h > 5 && h < 12) {
                 fundo.style.background = 'lightblue'
             } else if (h >= 12 && h < 18) {
-                fundo.style.background = 'lightorange'
-                img.src = 'tarde.jpg'
+                fundo.style.background = 'lightsalmon'
+                img.src = './imagens/tarde.jpg'
             } else {
                 fundo.style.background = 'darkblue'
                 img.src = './imagens/noite.jpeg'
