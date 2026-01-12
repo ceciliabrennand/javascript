@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px 0px 20px;
+    border-radius: 10px;
+}
+
+section > div#principal > input{
+    margin: 10px 0px 0px 0px;
+}
+
+section > div#res > p{
+    padding-bottom: 20px;
+}
+
+footer > p{
+    text-align: center;
+    font-size: 14px;
+}
